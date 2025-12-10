@@ -71,7 +71,7 @@ df_GR = df[df['job_country'] == 'Greece']
 To find the most demanding skills for the top 3 most popular data roles, I filtered out those positions by which ones were the most popular and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depenting on the role I'm targeting.
 
 View my notebook with detailed steps here:
-[2_Skills_Demand.ipynb](Project\2_Skills_Demand.ipynb)
+[2_Skills_Demand.ipynb](2_Skills_Demand.ipynb)
 
 ### Visualize Data
 
@@ -100,8 +100,7 @@ plt.show()
 ## 2. How are in-demand skills trending for Data Analysts?
 
 To find how skills are trending in 2025 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2025.
-View my notebook with detailed steps here:(Project\3_Skill_Trend.ipynb)
-
+View my notebook with detailed steps here:[3_Skill_Trend.ipynb](3_Skill_Trend.ipynb)
 ## Visualize Data
 
 ```python
@@ -136,7 +135,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I only got jobs in Greece and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with detailed steps here: (Project\4_Salary Analysis.ipynb)
+View my notebook with detailed steps here: [4_Salary Analysis.ipynb](4_Salary Analysis.ipynb)
 
 ### Salary Analysis 
 
@@ -201,7 +200,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
-View my notebook with detailed steps here: (Project\5_Optimal_Skills.ipynb)
+View my notebook with detailed steps here: [5_Optimal_Skills.ipynb](5_Optimal_Skills.ipynb)
 
 #### Visualize Data
 
